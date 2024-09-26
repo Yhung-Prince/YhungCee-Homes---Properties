@@ -1,0 +1,94 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Main Container */
+.main {
+  width: 100%;
+  min-height: 100vh;
+  background: #111;
+  color: #fff;
+  font-family: Arial, sans-serif;
+}
+
+/* Navbar */
+.navbar {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2% 5%;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.icon {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  color: #ff7200;
+  font-size: 2.5vw;
+  padding-right: 10px;
+}
+
+.logo2 {
+  color: #fff;
+  font-size: 1vw;
+}
+
+.menu ul {
+  display: flex;
+  gap: 2vw;
+  list-style: none;
+}
+
+.menu ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.menu ul li a:hover {
+  color: #ff7200;
+}
+
+/* Services Section */
+.services-content {
+  padding: 5% 10%;
+}
+
+.services-content h1 {
+  font-size: 3vw;
+  margin-bottom: 2%;
+  color: #ff7200;
+}
+
+.services-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5%;
+  justify-content: space-around;
+}
+
+.service-item {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 2%;
+  border-radius: 1vw;
+  width: 28%;
+}
+
+.service-item h2 {
+  color: #ff7200;
+  font-size: 1.8vw;
+  margin-bottom: 1%;
+}
+
+.service-item p {
+  font-size: 1.2vw;
+  line-height: 1.5;
+}

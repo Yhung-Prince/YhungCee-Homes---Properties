@@ -1,0 +1,108 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Main Container */
+.main {
+  width: 100%;
+  min-height: 100vh;
+  background: #111;
+  color: #fff;
+  font-family: Arial, sans-serif;
+}
+
+/* Navbar */
+.navbar {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2% 5%;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.icon {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  color: #ff7200;
+  font-size: 2.5vw;
+  padding-right: 10px;
+}
+
+.logo2 {
+  color: #fff;
+  font-size: 1vw;
+}
+
+.menu ul {
+  display: flex;
+  gap: 2vw;
+  list-style: none;
+}
+
+.menu ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.menu ul li a:hover {
+  color: #ff7200;
+}
+
+/* Contact Section */
+.contact-content {
+  padding: 5% 10%;
+}
+
+.contact-content h1 {
+  font-size: 3vw;
+  margin-bottom: 2%;
+  color: #ff7200;
+}
+
+.contact-content p {
+  font-size: 1.5vw;
+  margin-bottom: 3%;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 2%;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  padding: 1.5%;
+  border-radius: 0.5vw;
+  border: 1px solid #ff7200;
+  background: #222;
+  color: #fff;
+  font-size: 1.2vw;
+}
+
+form button {
+  width: 30%;
+  padding: 1%;
+  border-radius: 0.5vw;
+  border: none;
+  background: #ff7200;
+  color: #fff;
+  font-size: 1.5vw;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+form button:hover {
+  background: #fff;
+  color: #ff7200;
+}
